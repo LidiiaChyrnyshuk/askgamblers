@@ -1,0 +1,16 @@
+html {
+	scroll-behavior: smooth;
+	height: auto;
+	min-height: 100%;
+}
+
+body {
+	font-family: "Stolzl", sans-serif;
+	color: var(--color-text);
+	background: var(--color-bg);
+	position: relative;
+	width: 100vw;
+	height: auto;
+	min-height: 100dvh;
+
+}

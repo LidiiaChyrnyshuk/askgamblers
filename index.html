@@ -6,9 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./css/normalize.css" />
-		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="stylesheet" href="./css/main.css" />
 </head>
 <body>
-  
+  <div class="accent1"><img src="./images/hero/Ellipse_500.png" alt=""></div>
+  <div class="accent2"><img src="./images/hero/Ellipse_300.png" alt=""></div>
+  <div class="accent3"><img src="./images/hero/Ellipse_300.png" alt=""></div>
+  <div class="accent4"><img src="./images/hero/Ellipse_300.png" alt=""></div>
+  <section class="hero">
+    <div class="header">
+      <div class="header-logo">
+        <img src="./images/header/WS.svg" alt="logo">
+      </div>
+      <div class="language-selector">
+        <button id="lang-btn">
+          <img src="./images/header/language.svg" alt="Globe" class="icon"  />
+          <span class="current-lang" id="current-lang">EN</span>
+          <img src="./images/header/arrow_drop_down.svg" alt="Arrow" class="icon arrow"  />
+        </button>
+        <ul id="lang-dropdown" class="hidden">
+          <li data-lang="EN">EN</li>
+          <li data-lang="HU">HU</li>
+          <li data-lang="PT">PT</li>
+          <li data-lang="RU">RU</li>
+          <li data-lang="CZ">CZ</li>
+          <li data-lang="CA">CA</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <script src="./js/language.js"></script>
 </body>
 </html>
