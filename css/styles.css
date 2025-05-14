@@ -1,0 +1,92 @@
+:root {
+  --color-bg: #100F0F;
+  --color-text: #FFFFFF;
+  --color-bg-btn: radial-gradient(circle at center, rgba(255, 112, 112, 1), rgba(212, 12, 12, 1));
+  --color-border: linear-gradient(rgba(255, 255, 255, 0.48),rgba(255, 255, 255, 0.16));
+}
+
+/* --------fonts----------- */
+@font-face {
+	font-family: "Stolzl";
+	src: url("../fonts/stolzl_regular.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Stolzl";
+	src: url("../fonts/stolzl_medium.otf") format("opentype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Stolzl";
+	src: url("../fonts/stolzl_bold.otf") format("opentype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Stolzl";
+	src: url("../fonts/stolzl_light.otf") format("opentype");
+	font-weight: 200;
+	font-style: normal;
+}
+
+/* --------reset---------------- */
+* {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	margin: 0;
+
+	padding: 0;
+	list-style: none;
+}
+
+.button {
+	cursor: pointer;
+}
+
+label {
+	margin: 0;
+}
+
+input {
+	background: none;
+	outline: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: inherit;
+}
+
+/* -----------main------------- */
+
+html {
+	scroll-behavior: smooth;
+	height: auto;
+	min-height: 100%;
+}
