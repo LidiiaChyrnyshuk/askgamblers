@@ -1,9 +1,30 @@
 .accent1 {
   position: absolute;
-  top: 358px;
+  top: 390px;
   width: 258px;
   height: 258px;
   z-index: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .accent1 {
+    top: -400px;
+    right: -300px;
+    width: 900px;
+    height: 900px;
+    z-index: 1;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .accent1 {
+    top: -350px;
+    right: 0;
+    width: 900px;
+    height: 900px;
+    z-index: 1;
+  }
 }
 
 .accent2 {

@@ -1,13 +1,78 @@
 .hero {
-  position: relative;
-  width: 100%;
-  max-width: 390px;
-  padding: 24px;
-  z-index: 3;
-  display: flex;
-	flex-direction: column;
+	position: relative;
+	width: 100%;
+	max-width: 390px;
+	padding: 24px;
+	z-index: 3;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	/* gap: 24px; */
 	align-items: center;
 	justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.hero {
+		max-width: 1020px;
+		padding-left: 24px;
+		padding-top: 48px;
+		padding-right: 24px;
+		padding-bottom: 48px;
+		background: url(../images/hero/pattern.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 300px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.hero {
+		max-width: 1512px;
+		height: 658px;
+		padding-left: 156px;
+		padding-top: 60px;
+		padding-right: 156px;
+		padding-bottom: 60px;
+		background: url(../images/hero/pattern.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 300px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		row-gap: 0;
+	}
+
+	/* Перша строка — розтягується на 2 колонки */
+	.grid-item-1 {
+		grid-column: 1 / span 2;
+		margin-bottom: 64px;
+	}
+
+	/* Друга строка — ліва колонка */
+	.grid-item-2 {
+		grid-column: 1;
+		align-self: start;
+		margin-bottom: 40px;
+	}
+
+	/* Третя строка — права колонка */
+	.grid-item-3 {
+		grid-column: 2;
+		margin-left: 40px;
+
+	}
+
+	/* Четверта строка — ліва колонка, з відступом від другої */
+	.grid-item-4 {
+		grid-column: 1;
+/* 		position: absolute;
+		bottom: 0;
+		left: 0; */
+	}
 }

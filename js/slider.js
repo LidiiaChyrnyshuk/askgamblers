@@ -3,7 +3,7 @@ const swiper1 = new Swiper(".swiper-1", {
 	loop: true,
 	spaceBetween: 0,
 
-	slidesPerView: 5,
+	slidesPerView:3,
 	autoplay: {
 		delay: 2000,
 	},
@@ -31,6 +31,7 @@ const swiper2 = new Swiper(".swiper-2", {
 		768: {
 			slidesPerView: 3,
 		},
+		
 	},
 });
 
@@ -39,6 +40,9 @@ const swiper3 = new Swiper(".swiper-3", {
 	loop: true,
 	spaceBetween: 0,
 	slidesPerView: 1.5,
+	/* centeredSlides: true, */
+	grid: { rows: 2 },
+	
 
 });
 
@@ -54,6 +58,7 @@ const swiper4 = new Swiper(".swiper-4", {
 		768: {
 			slidesPerView: 6,
 		},
+		
 	},
 });
 

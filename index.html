@@ -26,8 +26,8 @@
 			<div class="accent4">
 				<img src="./images/hero/Ellipse_300.png" alt="" />
 			</div>
-			<section class="hero">
-				<div class="header">
+			<section class="hero grid-container">
+				<div class="header grid-item-1">
 					<div class="header-logo">
 						<img src="./images/header/WS.svg" alt="logo" />
 					</div>
@@ -55,21 +55,32 @@
 						</ul>
 					</div>
 				</div>
-				<div class="hero-text">
-					<h2 data-translate="title">welcome BONUS</h2>
-					<h1>
-            <span>350%</span>
-            <span data-translate="promoSubtext">up to</span>
-            <span data-translate="promoCurrency"> 7000 USDT</span></h1>
-					<div>
-						<p data-translate="bonus">+50 Free spins</p>
+				<div class="hero-text grid-item-2">
+					<h2 class="title" data-translate="title">welcome BONUS</h2>
+					<h1 class="promowrap">
+						<span class="promoCurrency">350%</span>
+						<span class="promoSubtext" data-translate="promoSubtext">up to</span
+						><br />
+						<span class="promoCurrency" data-translate="promoCurrency">
+							7000 USDT</span
+						>
+					</h1>
+					<div class="bonus-wrap">
+						<p class="bonus" data-translate="bonus">+50 Free spins</p>
 					</div>
-					<p data-translate="deposit">without deposit</p>
+					<p class="deposit" data-translate="deposit">without deposit</p>
 				</div>
-				<div class="hero-accent">
-					<img src="./images/hero/hero_image.png" alt="" />
+				<div class="hero-accent grid-item-3">
+					<img class="img-mob" src="./images/hero/hero_image.png" alt="" />
+					<img class="img-desk" src="./images/hero/girl.png" alt="" />
 				</div>
-				<button type="button" data-translate="btnRegistration">Registration</button>
+				<button
+					class="button grid-item-4"
+					type="button"
+					data-translate="btnRegistration"
+				>
+					Registration
+				</button>
 			</section>
 			<section class="loyalty">
 				<!-- Slider main container -->
@@ -184,113 +195,101 @@
 			</section>
 			<section class="benefits">
 				<h3 data-translate="titleBenefits">Recommended by Askgamblers</h3>
-        <ul>
-          <li>
-            <div>
-              <p data-translate="benefitsTop">TOP 10</p>
-              <p data-translate="benefitsBest">Вest Сasino<br/><span>2024</span> </p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <p>8.7</p>
-              <p data-translate="casinoRank">Casino Rank<br/><span data-translate="great">Great</span> </p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <p>9.6</p>
-              <p data-translate="playerRating">Player Rating<br/><span data-translate="reviews">817 reviews</span> </p>
-            </div>
-          </li>
-        </ul>
-			</section>
-      <section class="games">
-        <h3 data-translate="gamesTitel">Over 8000+ games</h3>
-        <div>
-          <div class="video-wrapper">
-            <video autoplay muted loop playsinline>
-              <source src="./video/zeus.mp4" type="video/mp4">
-            </video>
-          </div>
-          <!-- Slider main container -->
-			<div class="swiper swiper-3">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper">
-					<!-- Slides -->
-					<div class="swiper-slide">
+				<ul>
+					<li>
 						<div>
-              <img src="./images/games/12.png" alt="">
-              <div>
-                <p>Wild Bandito</p>
-                <p>PG Soft</p>
-              </div>
-            </div>
+							<p data-translate="benefitsTop">TOP 10</p>
+							<p data-translate="benefitsBest">
+								Вest Сasino<br /><span>2024</span>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<p>8.7</p>
+							<p data-translate="casinoRank">
+								Casino Rank<br /><span data-translate="great">Great</span>
+							</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<p>9.6</p>
+							<p data-translate="playerRating">
+								Player Rating<br /><span data-translate="reviews"
+									>817 reviews</span
+								>
+							</p>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section class="games">
+				<h3 data-translate="gamesTitel">Over 8000+ games</h3>
+				<div class="games-mob">
+					<div class="video-wrapper">
+						<video autoplay muted loop playsinline>
+							<source src="./video/zeus.mp4" type="video/mp4" />
+						</video>
 					</div>
-          <div>
-            <img src="./images/games/13.png" alt="">
-            <div>
-              <p>Big Bamboo</p>
-              <p>Push Gaming</p>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div>
-            <img src="./images/games/12.png" alt="">
-            <div>
-              <p>Wild Bandito</p>
-              <p>PG Soft</p>
-            </div>
-          </div>
-        </div>
-        <div>
-          <img src="./images/games/13.png" alt="">
-          <div>
-            <p>Big Bamboo</p>
-            <p>Push Gaming</p>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div>
-          <img src="./images/games/12.png" alt="">
-          <div>
-            <p>Wild Bandito</p>
-            <p>PG Soft</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <img src="./images/games/13.png" alt="">
-        <div>
-          <p>Big Bamboo</p>
-          <p>Push Gaming</p>
-        </div>
-      </div>
-    </div>
-
+					<!-- Slider main container -->
+					<div class="swiper swiper-3">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<img src="./images/games/сard_game1.png"  />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/games/сard_game2.png"  />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/games/сard_game3.png"  />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/games/сard_game4.png" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/games/сard_game5.png" />
+							</div>
+							<div class="swiper-slide">
+								<img src="./images/games/сard_game6.png"  />
+							</div>
+						</div>
+					</div>
 				</div>
-			</div>
-        </div>
-        <!-- Slider main container -->
-			<div class="swiper swiper-4">
-				<!-- Additional required wrapper -->
-				<div class="swiper-wrapper">
-					<!-- Slides -->
-					<div class="swiper-slide slide-4"><img class="swiper-4-img" src="./images/provider/1.svg" /></div>
-					<div class="swiper-slide slide-4"><img class="swiper-4-img" src="./images/provider/2.svg" /></div>
-					<div class="swiper-slide slide-4"><img class="swiper-4-img" src="./images/provider/3.svg" /></div>
-					<div class="swiper-slide slide-4"><img class="swiper-4-img" src="./images/provider/4.svg" /></div>
-					<div class="swiper-slide slide-4"><img class="swiper-4-img" src="./images/provider/5.svg" /></div>
-					<div class="swiper-slide slide-4"><img class="swiper-4-img" src="./images/provider/6.svg" /></div>
+				<!-- Slider main container -->
+				<div class="swiper swiper-4">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide slide-4">
+							<img class="swiper-4-img" src="./images/provider/1.svg" />
+						</div>
+						<div class="swiper-slide slide-4">
+							<img class="swiper-4-img" src="./images/provider/2.svg" />
+						</div>
+						<div class="swiper-slide slide-4">
+							<img class="swiper-4-img" src="./images/provider/3.svg" />
+						</div>
+						<div class="swiper-slide slide-4">
+							<img class="swiper-4-img" src="./images/provider/4.svg" />
+						</div>
+						<div class="swiper-slide slide-4">
+							<img class="swiper-4-img" src="./images/provider/5.svg" />
+						</div>
+						<div class="swiper-slide slide-4">
+							<img class="swiper-4-img" src="./images/provider/6.svg" />
+						</div>
+					</div>
 				</div>
-			</div>
-      <button type="button">Play</button>
-      </section>
+				<button type="button">Play</button>
+			</section>
 		</div>
 
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script src="./js/language.js"></script>
+		<script src="./js/slider.js"></script>
 	</body>
 </html>
+

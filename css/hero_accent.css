@@ -1,0 +1,36 @@
+.hero-accent {
+  width:21.375rem ;
+  height: 26.5rem;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  .hero-accent {
+    width: 100%;
+    max-width:31.25rem ;
+    height: 31.25rem;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .hero-accent {
+    width: 100%;
+    max-width:38.9375rem ;
+    height: 38.9375rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .img-mob {
+    display: none;
+  }
+}
+
+.img-desk {
+  display: none;
+}
+
+@media screen and (min-width:768px) {
+  .img-desk {
+    display: block;
+  }
+}
