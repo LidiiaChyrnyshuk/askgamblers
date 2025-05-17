@@ -1,0 +1,128 @@
+.benefits {
+	width: 100%;
+	padding-top: 32px;
+	padding-right: 24px;
+	padding-bottom: 32px;
+	padding-left: 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.benefits {
+		padding-top: 60px;
+		padding-right: 0;
+		padding-bottom: 60px;
+		padding-left: 0;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.benefits {
+		padding-top: 60px;
+		padding-right: 156px;
+		padding-bottom: 60px;
+		padding-left: 156px;
+	}
+}
+
+.titleBenefits {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: center;
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+	.titleBenefits {
+		font-size: 48px;
+		line-height: 52px;
+    margin-bottom: 40px;
+	}
+}
+
+.benefits-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+@media screen and (min-width:768px) {
+  .benefits-list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.benefits-item {
+  width: 342px;
+  height: 139px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .benefits-item {
+    width: 310px;
+    height: 203px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .benefits-item {
+    width: 387px;
+    height: 253px;
+  }
+}
+
+.award {
+  background: url(../images/benefits/Award-mobile.png);
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (min-width:768px) {
+  .award {
+    background: url(../images/benefits/Award-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.rank {
+  background: url(../images/benefits/Rank-mobile.png);
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (min-width:768px) {
+  .rank {
+    background: url(../images/benefits/Rank-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.rating {
+  background: url(../images/benefits/Rating-mobile.png);
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (min-width:768px) {
+  .rating {
+    background: url(../images/benefits/Rating-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

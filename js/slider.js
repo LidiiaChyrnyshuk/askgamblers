@@ -1,18 +1,21 @@
 const swiper1 = new Swiper(".swiper-1", {
-	speed: 1000,
+	speed: 3000,
 	loop: true,
-	spaceBetween: 0,
-
-	slidesPerView:3,
+	spaceBetween: 10,
+	freeMode: true,
+	slidesPerView: 3.5,
+	freeModeMomentum: false,
 	autoplay: {
-		delay: 2000,
+		delay: 0,
+		disableOnInteraction: false,
 	},
 	breakpoints: {
 		768: {
-			slidesPerView: 8,
+			slidesPerView: 8.5,
+			spaceBetween: 32,
 		},
 		1024: {
-			slidesPerView: 9,
+			slidesPerView: 11,
 			spaceBetween: 20,
 		},
 	},
