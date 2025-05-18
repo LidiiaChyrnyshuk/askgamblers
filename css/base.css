@@ -19,7 +19,7 @@ body {
 .container {
 	position: relative;
 	width: 100%;
-	max-width: 390px;
+	/* max-width: 390px; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;

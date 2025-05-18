@@ -1,9 +1,9 @@
 const swiper1 = new Swiper(".swiper-1", {
-	speed: 500,
+	speed: 1000,
 	loop: true,
 	spaceBetween: 10,
 	freeMode: true,
-	slidesPerView: 3.5,
+	slidesPerView: 4,
 	freeModeMomentum: false,
 	autoplay: {
 		delay: 0,
