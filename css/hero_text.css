@@ -90,7 +90,7 @@
 
 .bonus {
 	font-weight: 700;
-	font-size: 2rem;
+	font-size: 30px;
 	line-height: 100%;
 	text-transform: uppercase;
 	color: rgba(255, 174, 127, 1);
@@ -99,19 +99,19 @@
 
 @media screen and (min-width: 768px) {
 	.bonus {
-		font-size: 3rem;
+		font-size: 48px;
 	}
 }
 
 .deposit {
 	font-weight: 400;
-	font-size: 1.25rem;
+	font-size: 20px;
 	line-height: 100%;
 	text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
 	.deposit {
-		font-size: 1.5rem;
+		font-size: 24px;
 	}
 }

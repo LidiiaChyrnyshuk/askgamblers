@@ -1,5 +1,5 @@
 const swiper1 = new Swiper(".swiper-1", {
-	speed: 3000,
+	speed: 500,
 	loop: true,
 	spaceBetween: 10,
 	freeMode: true,
@@ -21,32 +21,14 @@ const swiper1 = new Swiper(".swiper-1", {
 	},
 });
 
-const swiper2 = new Swiper(".swiper-2", {
-	speed: 1000,
-	loop: true,
-	spaceBetween: 0,
-	centeredSlides: true,
-	slidesPerView: 1.5,
-	autoplay: {
-		delay: 5000,
-	},
-	breakpoints: {
-		768: {
-			slidesPerView: 3,
-		},
-		
-	},
-});
 
 const swiper3 = new Swiper(".swiper-3", {
 	speed: 1000,
 	loop: true,
 	spaceBetween: 0,
 	slidesPerView: 1.5,
-	/* centeredSlides: true, */
-	grid: { rows: 2 },
-	
-
+	centeredSlides: true,
+	grabCursor: true, // показує "лапку" при наведенні
 });
 
 const swiper4 = new Swiper(".swiper-4", {

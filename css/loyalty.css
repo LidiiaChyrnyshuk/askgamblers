@@ -44,3 +44,8 @@
 	pointer-events: none; /* Щоб градієнт не блокував свайп */
 	z-index: 10;
 }
+
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+          transition-timing-function: linear !important;
+}
