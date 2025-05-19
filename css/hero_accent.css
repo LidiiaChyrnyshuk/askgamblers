@@ -1,37 +1,59 @@
-.hero-accent {
-  width: 100%;
- /*  width:21.375rem ; */
-  height: 26.5rem;
+@media screen and (max-width: 767px) {
+	.hero-accent {
+		position: relative;
+		width: 100vw;
+		height: auto;
+	}
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
-  .hero-accent {
-    width: 100%;
-    max-width:31.25rem ;
-    height: 31.25rem;
-  }
+
+@media screen and (max-width: 767px) {
+	.hero-accent::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		z-index: 1;
+		background-image: url(../images/hero/pattern.png);
+		opacity: 1;
+	
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
 }
 
-@media screen and (min-width:1024px) {
-  .hero-accent {
-    width: 100%;
-    max-width:38.9375rem ;
-    height: 38.9375rem;
-  }
+/* @media screen and (min-width: 768px) and (max-width: 1023px) {
+	.hero-accent {
+		width: 45.68vw;
+		aspect-ratio: 466 / 418;
+	}
 }
 
-@media screen and (min-width:768px) {
-  .img-mob {
-    display: none;
-  }
+@media screen and (min-width: 1024px) {
+	.hero-accent {
+		width: 41.20vw;
+		aspect-ratio: 623 / 623;
+	}
+} */
+
+.img-mob {
+	position: relative;
+	z-index: 4;
+}
+
+@media screen and (min-width: 768px) {
+	.img-mob {
+		display: none;
+	}
 }
 
 .img-desk {
-  display: none;
+	display: none;
 }
 
-@media screen and (min-width:768px) {
-  .img-desk {
-    display: block;
-  }
+@media screen and (min-width: 768px) {
+	.img-desk {
+		display: block;
+	}
 }

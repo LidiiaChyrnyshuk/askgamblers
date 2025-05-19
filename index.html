@@ -4,27 +4,44 @@
 		<meta charset="UTF-8" />
 		<link type="image/x-icon" rel="shortcut icon" href="./logo.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>WEISS</title>
 		<link rel="stylesheet" href="./css/normalize.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css"
+		/>
+		<script>
+			(function () {
+				const supported = ["ru", "en", "hu", "cz", "pt",];
+				let lang = navigator.language.split("-")[0].toLowerCase();
+				if (!supported.includes(lang)) lang = "en";
+
+				const script = document.createElement("script");
+				script.src = `https://www.google.com/recaptcha/api.js?hl=${lang}`;
+				script.async = true;
+				script.defer = true;
+				document.head.appendChild(script);
+			})();
+		</script>
 	</head>
 	<body>
 		<div class="container">
 			<div class="accent1">
-				<img src="./images/hero/Ellipse_500.png" alt="" />
+				<img src="./images/hero/Ellipse_500.png" alt="Decorative circle" />
 			</div>
 			<div class="accent2">
-				<img src="./images/hero/Ellipse_300.png" alt="" />
+				<img src="./images/hero/Ellipse_300.png" alt="Decorative circle" />
 			</div>
 			<div class="accent3">
-				<img src="./images/hero/Ellipse_300.png" alt="" />
+				<img src="./images/hero/Ellipse_300.png" alt="Decorative circle" />
 			</div>
 			<div class="accent4">
-				<img src="./images/hero/Ellipse_300.png" alt="" />
+				<img src="./images/hero/Ellipse_300.png" alt="Decorative circle" />
 			</div>
 			<section class="hero grid-container">
 				<div class="header grid-item-1">
@@ -71,13 +88,14 @@
 					<p class="deposit" data-translate="deposit">without deposit</p>
 				</div>
 				<div class="hero-accent grid-item-3">
-					<img class="img-mob" src="./images/hero/hero_image.png" alt="" />
-					<img class="img-desk" src="./images/hero/girl.png" alt="" />
+					<img class="img-mob" src="./images/hero/girl_mob.png" alt="girl" />
+					<!-- <img class="img-desk" src="./images/hero/girl.png" alt="" /> -->
 				</div>
 				<button
 					class="button grid-item-4"
 					type="button"
 					data-translate="btnRegistration"
+					data-modal-open
 				>
 					Registration
 				</button>
@@ -313,12 +331,116 @@
 						</div>
 					</div>
 				</div>
-				<button class="button" type="button">Play</button>
+				<div class="btn-wrap">
+					<button class="button btn-play" type="button" data-modal-open>Play</button>
+				</div>
 			</section>
+			<!-- -----MODALWINDOW------ -->
+			<div class="backdrop is-hidden" data-modal>
+				<form class="modal" id="registrationForm">
+					
+					<div class="modal-header">
+						<div class="accent5"><img src="./images/hero/Ellipse_500.png" alt="Decorative circle" /></div>
+						<div class="header-modal">
+							<img class="modal-logo" src="./images/header/WS.svg" alt="logo">
+							<button class="modal-close" type="button" data-modal-close>
+								<img src="./images/form/close.svg" alt="close" width="24" height="24">
+							</button>
+						</div>
+
+						<div >
+							
+							<h2 class="modal-promowrap">
+								<span class="modal-promoCurrency">350%</span>
+								<span class="modal-promoSubtext" data-translate="promoSubtext">up to</span
+								><br />
+								<span class="modal-promoCurrency" data-translate="promoCurrency">
+									7000 USDT</span
+								>
+							</h2>
+							<div class="modal-bonus-wrap">
+								<p class="modal-bonus" data-translate="bonus">+50 Free spins</p>
+							</div>
+						</div>
+						
+					</div>
+					<div class="modal-content">
+						<label class="modal-label">
+							Email*
+							<input
+								class="modal-input"
+								type="email"
+								name="email"
+								placeholder="user@gmail.com"
+								value=""
+								required
+							/>
+							<img
+								class="input-icon modal-icon"
+								src="./images/form/email.svg"
+								alt="Letter icon"
+								width="24"
+								height="24"
+							/>
+						</label>
+						<label class="modal-label">
+							Password*
+							<input
+								class="modal-input"
+								type="password"
+								name="password"
+								placeholder="Qwerty123"
+								value=""
+								required
+							/>
+							<img
+								class="input-icon modal-icon"
+								src="./images/form/lock.svg"
+								alt="Lock icon"
+								width="24"
+								height="24"
+							/>
+						</label>
+						<label class="modal-check modal-label">
+							<input class="modal-checkbox" type="checkbox" name="terms" />
+							<p>
+								<span data-translate="checkbox"
+									>Ставя галочку в этом поле для регистрации на сайте,
+									пользователь подтверждает, что ему больше 18 лет, и что он
+									прочитал, понял и принял</span
+								>
+								<a
+									href="https://weiss.bet/terms-and-conditions"
+									data-translate="terms"
+									>Условия и положения</a
+								>.
+							</p>
+						</label>
+						<div class="captcha-wrapper" id="captcha-container">
+							<div
+								class="g-recaptcha"
+								data-sitekey="6Lc83T8rAAAAAFjGDmEMb7fpE4spciYpcY-xYGvK"
+								data-callback="onCaptchaCompleted"
+							></div>
+						</div>
+					</div>
+					<div class="modal-btn">
+						<button
+							class="button modal-button"
+							type="submit"
+							data-translate="modalBtn"
+						>
+							Cоздать акаунт
+						</button>
+					</div>
+				</form>
+			</div>
 		</div>
 
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-		<script src="./js/language.js"></script>
-		<script src="./js/slider.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+		<script src="./js/language.js" defer></script>
+		<script type="module" src="./js/modal.js" defer></script>
+		<script src="./js/slider.js" defer></script>
 	</body>
 </html>

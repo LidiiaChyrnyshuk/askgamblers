@@ -1,9 +1,12 @@
 .games {
 	width: 100%;
+  max-width: 1512px;
+  position: relative;
 	padding-top: 32px;
 	padding-right: 24px;
 	padding-bottom: 32px;
 	padding-left: 24px;
+z-index: 10;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -58,10 +61,10 @@
 }
 
 .video-wrapper {
-	width: 342px;
-	height: 172px;
+  width: 87.69vw;
+  aspect-ratio: 342 / 172;
 	border-radius: 32px;
-	border: 1px solid rgba(255, 255, 255, 0.24);
+	
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 24px;
@@ -79,9 +82,11 @@
   width: 100%;
 }
 
+
 .games-slide {
   width: 260px;
   height: 176px;
+  margin-left: auto;
 ;
 }
 .slide-img {
@@ -92,11 +97,20 @@
 
 .games-tab {
   display: none;
+  
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width:768px) {
   .games-tab {
     display: block;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .games-tab {
+    display: block;
+    margin-bottom: 40px;
   }
 }
 
@@ -106,6 +120,44 @@
     align-items: center;
     justify-content: center;
     gap: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+.item-wrap {
+  width: 35.29vw;
+  aspect-ratio: 360 / 172;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  overflow: hidden;
+}
+
+@media screen and (min-width:1024px) {
+  .item-wrap {
+    width: 29.76vw;
+    aspect-ratio: 450 / 220;
+
+  }
+}
+
+.item1 {
+width: 100%;
+height: auto;
+}
+
+.item2 {
+  width: 16.86vw;
+  aspect-ratio: 1 / 1;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  overflow: hidden;
+}
+
+@media screen and (min-width:1024px) {
+  .item2 {
+    width: 14.34vw;
+    aspect-ratio: 216 / 220;
+
   }
 }
 
@@ -116,4 +168,28 @@
     justify-content: center;
     gap: 16px;
   }
+}
+
+.item3 {
+  width: 11.57vw;
+  aspect-ratio: 118 / 120;
+  border-radius: 24px;
+  border: 0.75px solid rgba(255, 255, 255, 0.24);
+  overflow: hidden;
+}
+
+@media screen and (min-width:1024px) {
+  .item3 {
+    width: 9.92vw;
+    aspect-ratio: 1 / 1;
+
+  }  
+}
+
+.btn-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }

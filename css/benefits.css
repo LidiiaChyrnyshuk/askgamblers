@@ -1,9 +1,12 @@
 .benefits {
+  position: relative;
 	width: 100%;
+  max-width: 1512px;
 	padding-top: 32px;
 	padding-right: 24px;
 	padding-bottom: 32px;
 	padding-left: 24px;
+  z-index: 10;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -26,8 +29,9 @@
 
 .titleBenefits {
 	font-weight: 500;
-	font-size: 24px;
-	line-height: 28px;
+	/* font-size: 24px; */
+  font-size: 6.15vw;
+	line-height: 7.17vw;
 	text-align: center;
   margin-bottom: 24px;
 }
@@ -61,46 +65,52 @@
 }
 
 .benefits-item {
-  width: 342px;
-  height: 139px;
+/*   width: 342px;
+  height: 139px; */
+  width: 87.69vw;
+  aspect-ratio: 342 / 139;
   padding-top: 40px;
   padding-right: 25px;
   padding-bottom: 40px;
   padding-left: 25px;
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: flex-start;
   gap: 24px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .benefits-item {
-    width: 310px;
+/*     width: 310px;
+    height: 203px; */
+    width: 30.39vw;
     height: 203px;
     padding-right: 39px;
     flex-direction: column;
     align-items:start;
     justify-content: center;
-    gap: 26px;
+    gap: 20px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .benefits-item {
-    width: 387px;
-    height: 253px;
+/*     width: 387px;
+    height: 253px; */
+    width: 25.59vw;
+    aspect-ratio: 387 / 253;
     padding-right: 50px;
     flex-direction: column;
     align-items: start;
     justify-content: flex-start;
-    gap: 28px;
+    gap: 22px;
   }
 }
 
 .award {
   background: url(../images/benefits/Award-mobile.png);
   background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 }
 
@@ -108,7 +118,7 @@
   .award {
     background: url(../images/benefits/Award-desktop.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 }
@@ -116,7 +126,7 @@
 .rank {
   background: url(../images/benefits/Rank-mobile.png);
   background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 }
 
@@ -124,7 +134,7 @@
   .rank {
     background: url(../images/benefits/Rank-desktop.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 }
@@ -132,7 +142,7 @@
 .rating {
   background: url(../images/benefits/Rating-mobile.png);
   background-repeat: no-repeat;
-	background-size: cover;
+	background-size:contain;
 	background-position: center;
 }
 
@@ -140,45 +150,75 @@
   .rating {
     background: url(../images/benefits/Rating-desktop.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
   }
 }
 
 .benefits-info {
 font-weight: 500;
-font-size: 48px;
-line-height: 60px;
+/* font-size: 48px;
+line-height: 60px; */
+font-size: 12.30vw;
+line-height: 15.38vw;
 }
 
 @media screen and (min-width:768px) {
   .benefits-info {
-    font-size: 70px;
-    line-height: 70px;
+    font-size: 6vw;
+    line-height: 6.86vw;
+  }    
+}
+
+@media screen and (min-width:1024px) {
+  .benefits-info {
+    font-size: 5vw;
+    line-height: 6.86vw;
   }    
 }
 
 .info-description {
 font-weight: 400;
-font-size: 16px;
-line-height: 20px;
+/* font-size: 16px;
+line-height: 20px; */
+font-size: 4.10vw;
+line-height:5.12vw;
 color: rgba(255, 255, 255, 0.8);
 }
 
 @media screen and (min-width:768px) {
   .info-description {
-    font-size: 20px;
+    font-size: 1.96vw;
+    line-height:1.96vw;
     }
 }
 
+@media screen and (min-width:1024px) {
+  .info-description {
+    font-size: 1.46vw;
+    line-height:1.96vw;
+    }
+}
+
+
 .info-resalt {
 font-weight: 500;
-font-size: 32px;
-line-height: 40px;
+/* font-size: 32px;
+line-height: 40px; */
+font-size: 8.20vw;
+line-height: 10.25vw;
 }
 
 @media screen and (min-width:768px) {
   .info-resalt {
-    font-size: 40px;
+    font-size: 3vw;
+    line-height: 3.92vw;
+    }
+}
+
+@media screen and (min-width:1024px) {
+  .info-resalt {
+    font-size: 2vw;
+    line-height: 3.92vw;
     }
 }

@@ -21,5 +21,8 @@
 	"homepage": "https://github.com/LidiiaChyrnyshuk/askgamblers#readme",
 	"devDependencies": {
 		"parcel": "^2.15.0"
+	},
+	"dependencies": {
+		"notyf": "^3.10.0"
 	}
 }

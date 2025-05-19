@@ -5,6 +5,7 @@
 	align-items: center;
 	justify-content: space-between;
 	z-index: 90;
+	
 	margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {

@@ -9,24 +9,19 @@
 	.hero-text {
 		align-items: start;
 		justify-content: flex-start;
+		margin-bottom: 40px;
 	}
 }
 
 .title {
 	font-weight: 400;
-	font-size: 1.25rem;
-	line-height: 1.25rem;
+  font-size: clamp(16px, 5vw, 24px);
+  line-height: 1.25;
 	text-transform: uppercase;
 	color: rgba(255, 202, 172, 1);
 	margin-bottom: 8px;
 }
 
-@media screen and (min-width: 768px) {
-	.title {
-		font-size: 1.5rem;
-		line-height: 1.5rem;
-	}
-}
 
 .promowrap {
   margin-bottom: 24px;
@@ -34,31 +29,19 @@
 
 .promoCurrency {
 	font-weight: 700;
-	font-size: 2.625rem;
-	line-height: 2.625rem;
+	font-size: clamp(28px, 7vw, 64px);
+	line-height: 1;
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 768px) {
-	.promoCurrency {
-		font-size: 4rem;
-		line-height: 4rem;
-	}
-}
 
 .promoSubtext {
 	font-weight: 200;
-	font-size: 2.625rem;
-	line-height: 2.625rem;
+	font-size: clamp(28px, 7vw, 64px);
+	line-height: 1;
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 768px) {
-	.promoSubtext {
-		font-size: 4rem;
-		line-height: 4rem;
-	}
-}
 
 .bonus-wrap {
 	width: 289px;
@@ -105,13 +88,9 @@
 
 .deposit {
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 100%;
+	font-size: clamp(16px, 4vw, 24px);
+	line-height: 1;
 	text-transform: uppercase;
 }
 
-@media screen and (min-width: 768px) {
-	.deposit {
-		font-size: 24px;
-	}
-}
+

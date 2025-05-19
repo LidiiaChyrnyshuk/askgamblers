@@ -3,7 +3,7 @@ const swiper1 = new Swiper(".swiper-1", {
 	loop: true,
 	spaceBetween: 10,
 	freeMode: true,
-	slidesPerView: 4,
+	slidesPerView: 4.5,
 	freeModeMomentum: false,
 	autoplay: {
 		delay: 0,
@@ -21,49 +21,32 @@ const swiper1 = new Swiper(".swiper-1", {
 	},
 });
 
-
 const swiper3 = new Swiper(".swiper-3", {
 	speed: 1000,
 	loop: true,
 	spaceBetween: 0,
 	slidesPerView: 1.5,
-	centeredSlides: true,
+	centeredSlides: false,
 	grabCursor: true, // показує "лапку" при наведенні
 });
 
 const swiper4 = new Swiper(".swiper-4", {
 	speed: 1000,
 	loop: true,
-	spaceBetween: 0,
+	spaceBetween: 20,
 	slidesPerView: 4,
 	autoplay: {
 		delay: 2000,
 	},
 	breakpoints: {
 		768: {
-			slidesPerView: 6,
+			slidesPerView: 5.5,
+			spaceBetween: 30,
 		},
-		
+		1024: {
+			slidesPerView: 5,
+			spaceBetween: 40,
+		},
 	},
 });
 
-const swiper5 = new Swiper(".swiper-5", {
-	speed: 1000,
-	loop: true,
-	spaceBetween: 0,
-	slidesPerView: 1.5,
-	centeredSlides: true,
-	autoplay: {
-		delay: 2000,
-	},
-	breakpoints: {
-		768: {
-			slidesPerView: 2,
-			spaceBetween: 16,
-		},
-		1024: {
-			slidesPerView: 2.6,
-			spaceBetween: 16,
-		},
-	},
-});
