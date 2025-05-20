@@ -38,11 +38,10 @@
 	background: linear-gradient(
 		to right,
 		rgba(10, 18, 24, 1) 0%,
-		rgba(40, 53, 62, 0) 50%,
+		rgba(0, 0, 0, 0) 50%,
 		rgba(10, 18, 24, 1) 100%
 	);
-
-	pointer-events: none; /* Щоб градієнт не блокував свайп */
+	pointer-events: none; 
 	z-index: 10;
 }
 
