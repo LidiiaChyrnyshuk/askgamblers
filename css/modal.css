@@ -145,6 +145,11 @@
 
 }
 
+.icon-close {
+	width: 14px;
+	height: 14px;
+}
+
 .modal-promowrap {
   margin-bottom: 8px;
 }

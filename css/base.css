@@ -13,7 +13,7 @@ body {
 	width: 100vw;
 	height: auto;
 	min-height: 100dvh;
-
+	overflow-x: hidden;
 }
 
 .container {
