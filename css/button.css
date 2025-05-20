@@ -1,8 +1,8 @@
 .button {
 width: 342px;
 height: 64px;
+border: 2px solid rgba(255, 255, 255, 0.16);
 border-radius: 20px;
-border: 2px solid linear-gradient(rgba(255, 255, 255, 0.48),rgba(255, 255, 255, 0.16));
 padding-top: 8px;
 padding-right: 48px;
 padding-bottom: 8px;
