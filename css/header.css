@@ -5,13 +5,12 @@
 	align-items: center;
 	justify-content: space-between;
 	z-index: 90;
-	
+
 	margin-bottom: 24px;
 }
 @media screen and (min-width: 768px) {
 	.header {
-
-		margin-bottom:64px;
+		margin-bottom: 64px;
 	}
 }
 
@@ -55,21 +54,33 @@
 	position: absolute;
 	top: 100%;
 	left: 0;
-	background-color: rgba(217, 217, 217, 1);
+	width: 120px;
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.08) 0%,
+		rgba(255, 255, 255, 0.04) 100%
+	);
 	color: var(--color-text);
 	border-radius: 16px;
-	border: 2px solid var(--color-border);
+	border: 2px solid rgba(255, 255, 255, 0.16);
 	list-style: none;
 	padding: 0;
 	margin: 5px 0 0;
-	width: 120px;
 	z-index: 100;
+	overflow: hidden;
 }
 
 #lang-dropdown li {
 	padding: 10px 20px;
 	cursor: pointer;
 	transition: background 0.3s;
+}
+
+#lang-dropdown li.active {
+	background: rgba(255, 255, 255, 0.12);
+	color: #fff;
+	font-weight: bold;
+	
 }
 
 .hidden {
@@ -100,18 +111,11 @@
 	transform: rotate(180deg);
 }
 
-#lang-dropdown {
-	
-	backdrop-filter: blur(10px); 
- background-color: #100f0faf;
-	-webkit-backdrop-filter: blur(10px); /* для Safari */
-	
-}
+/* #lang-dropdown {
+	backdrop-filter: blur(10px);
+	background-color: #100f0faf;
+	-webkit-backdrop-filter: blur(10px); 
+} */
 
-/* Активна мова */
-#lang-dropdown li.active {
-	background: radial-gradient(circle at center, rgba(255, 112, 112, 1), rgba(212, 12, 12, 1));
-	color: #fff;
-	font-weight: bold;
-	border-radius: 12px;
-}
+
+
