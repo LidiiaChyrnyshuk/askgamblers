@@ -1,6 +1,8 @@
+let notyf;
+
 document.addEventListener("DOMContentLoaded", () => {
 	// Ініціалізація Notyf
-	var notyf = new Notyf({
+	notyf = new Notyf({
 		duration: 2000,
 		position: {
 			x: "center",
@@ -39,8 +41,8 @@ window.addEventListener("popstate", handleBackButton);
 disableButton();
 
 function handleOpenModal() {
-  refsModal.backdrop.classList.remove("is-hidden");
-  refsModal.closeModalBtn.addEventListener("click", handleCloseModal);
+	refsModal.backdrop.classList.remove("is-hidden");
+	refsModal.closeModalBtn.addEventListener("click", handleCloseModal);
 	document.addEventListener("keydown", handleEscCloseModal);
 	document.addEventListener("click", handleEscCloseModal);
 	document.body.style.overflow = "hidden";
@@ -49,8 +51,8 @@ function handleOpenModal() {
 
 function handleCloseModal() {
 	document.body.style.overflow = "";
-  refsModal.backdrop.classList.add("is-hidden");
-  refsModal.closeModalBtn.addEventListener("click", handleCloseModal);
+	refsModal.backdrop.classList.add("is-hidden");
+	refsModal.closeModalBtn.addEventListener("click", handleCloseModal);
 	document.removeEventListener("keydown", handleEscCloseModal);
 	document.removeEventListener("click", handleEscCloseModal);
 	clearForm();
@@ -146,14 +148,12 @@ function disableButton() {
 	refsModal.submitBtn.disabled = true;
 	refsModal.submitBtn.style.cursor = "not-allowed";
 	refsModal.submitBtn.style.opacity = "0.6";
-	
 }
 
 function enableButton() {
 	refsModal.submitBtn.disabled = false;
 	refsModal.submitBtn.style.cursor = "pointer";
 	refsModal.submitBtn.style.opacity = "1";
-
 }
 
 async function submitRegistration(event) {
