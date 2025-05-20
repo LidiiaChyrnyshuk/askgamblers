@@ -101,9 +101,11 @@
 }
 
 #lang-dropdown {
-	backdrop-filter: blur(10px); /* Основний ефект блюру */
-	background-color: rgba(255, 255, 255, 0.152); /* напівпрозорий фон */
+	
+	backdrop-filter: blur(10px); 
+ background-color: #100f0faf;
 	-webkit-backdrop-filter: blur(10px); /* для Safari */
+	
 }
 
 /* Активна мова */

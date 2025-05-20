@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const refsModal = {
-	openModalBtn: document.querySelector("[data-modal-open]"),
+	openModalBtns: document.querySelectorAll("[data-modal-open]"),
 	closeModalBtn: document.querySelector("[data-modal-close]"),
 	backdrop: document.querySelector("[data-modal]"),
 	form: document.getElementById("registrationForm"),
@@ -22,7 +22,10 @@ const refsModal = {
 
 let startY;
 
-refsModal.openModalBtn.addEventListener("click", handleOpenModal);
+refsModal.openModalBtns.forEach((btn) =>
+	btn.addEventListener("click", handleOpenModal)
+);
+
 refsModal.closeModalBtn.addEventListener("click", handleCloseModal);
 refsModal.emailInput.addEventListener("input", validateForm);
 refsModal.passwordInput.addEventListener("input", validateForm);
