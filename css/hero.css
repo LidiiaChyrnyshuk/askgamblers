@@ -6,11 +6,12 @@
 	z-index: 3;
 	display: flex;
 	flex-direction: column;
-	/* gap: 24px; */
 	align-items: center;
 	justify-content: center;
-/* 	margin-right: auto;
-	margin-left: auto; */
+	background-image: url(../images/hero/pattern.png);
+	background-repeat: no-repeat;
+	background-size: 595px 595px;
+	background-position: 0 280px;
 }
 
 @media screen and (min-width: 768px) {
@@ -27,10 +28,10 @@
 		padding-top: 48px;
 		padding-right: 24px;
 		padding-bottom: 48px;
-		background: url(../images/hero/pattern.png), url(../images/hero/girl.png);
-		background-repeat: no-repeat, no-repeat;
-		background-size: contain, 500px auto;
-		background-position: 300px 0, 450px 130px;
+		background: url(../images/hero/pattern.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 300px 0;
 	}
 }
 @media screen and (min-width: 1024px) {
@@ -41,52 +42,9 @@
 		padding-top: 60px;
 		padding-right: 156px;
 		padding-bottom: 60px;
-		background: url(../images/hero/pattern.png), url(../images/hero/girl.png);
-		background-repeat: no-repeat, no-repeat;
-		background-size: contain, 622px auto;
-		background-position: 300px 0, 450px 0;
+		background: url(../images/hero/pattern.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: 300px 0;
 	}
 }
-/* 
-.grid-container {
-	display: grid;
-	grid-template-columns: auto;
-	place-items: center;
-	
-}
-
-@media screen and (min-width: 768px) {
-	.grid-container {
-
-		grid-template-columns: 1fr 1fr;
-		row-gap: 0;
-		place-items: start;
-	}
-
-
-	.grid-item-1 {
-		grid-column: 1 / span 2;
-		margin-bottom: 64px;
-	}
-
-
-	.grid-item-2 {
-		grid-column: 1;
-		align-self: start;
-		margin-bottom: 40px;
-	}
-
-
-	.grid-item-3 {
-		grid-column: 2;
-		margin-left: 40px;
-
-	}
-
-	
-	.grid-item-4 {
-		grid-column: 1;
-
-	}
-}
- */

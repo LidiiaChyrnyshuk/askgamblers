@@ -95,8 +95,6 @@
 
 @media screen and (min-width: 1024px) {
   .benefits-item {
-/*     width: 387px;
-    height: 253px; */
     width: 25.59vw;
     aspect-ratio: 387 / 253;
     padding-right: 50px;
@@ -104,6 +102,13 @@
     align-items: start;
     justify-content: flex-start;
     gap: 22px;
+  }
+}
+
+@media screen and (min-width: 1512px) {
+  .benefits-item {
+    width: 387px;
+    height: 253px;
   }
 }
 
@@ -176,6 +181,13 @@ line-height: 15.38vw;
     line-height: 6.86vw;
   }    
 }
+@media screen and (min-width: 1512px) {
+  .benefits-info {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+
 
 .info-description {
 font-weight: 400;
@@ -199,7 +211,13 @@ color: rgba(255, 255, 255, 0.8);
     line-height:1.96vw;
     }
 }
-
+@media screen and (min-width: 1512px) {
+    .info-description {
+      font-size: 20px;
+      line-height:20px;
+      }
+  
+}
 
 .info-resalt {
 font-weight: 500;
@@ -220,5 +238,11 @@ line-height: 10.25vw;
   .info-resalt {
     font-size: 2vw;
     line-height: 3.92vw;
+    }
+}
+@media screen and (min-width: 1512px) {
+  .info-resalt {
+    font-size: 40px;
+    line-height: 40px;
     }
 }
