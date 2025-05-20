@@ -1,6 +1,5 @@
 :root {
-  --color-bg: #100F0F;
-  --color-text: #FFFFFF;
+  --color-bg: rgba(16, 15, 15, 1);
+  --color-text: rgba(255, 255, 255, 1);
   --color-bg-btn: radial-gradient(circle at center, rgba(255, 112, 112, 1), rgba(212, 12, 12, 1));
-  --color-border: linear-gradient(rgba(255, 255, 255, 0.48),rgba(255, 255, 255, 0.16));
 }

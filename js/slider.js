@@ -5,6 +5,8 @@ const swiper1 = new Swiper(".swiper-1", {
 	freeMode: true,
 	slidesPerView: 4.5,
 	freeModeMomentum: false,
+	allowTouchMove: false,
+  simulateTouch: false,
 	autoplay: {
 		delay: 0,
 		disableOnInteraction: false,
@@ -35,6 +37,8 @@ const swiper4 = new Swiper(".swiper-4", {
 	loop: true,
 	spaceBetween: 20,
 	slidesPerView: 4,
+	allowTouchMove: false,
+	simulateTouch: false,
 	autoplay: {
 		delay: 2000,
 	},
