@@ -65,8 +65,6 @@
 }
 
 .benefits-item {
-/*   width: 342px;
-  height: 139px; */
   width: 87.69vw;
   aspect-ratio: 342 / 139;
   padding-top: 40px;
@@ -81,8 +79,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .benefits-item {
-/*     width: 310px;
-    height: 203px; */
     width: 30.39vw;
     height: 203px;
     padding-right: 39px;
@@ -113,7 +109,7 @@
 }
 
 .award {
-  background: url(../images/benefits/Award-mobile.png);
+  background: url(../images/benefits/Award-mobile.webp);
   background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -121,7 +117,7 @@
 
 @media screen and (min-width:768px) {
   .award {
-    background: url(../images/benefits/Award-desktop.png);
+    background: url(../images/benefits/Award-desktop.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -129,7 +125,7 @@
 }
 
 .rank {
-  background: url(../images/benefits/Rank-mobile.png);
+  background: url(../images/benefits/Rank-mobile.webp);
   background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -137,7 +133,7 @@
 
 @media screen and (min-width:768px) {
   .rank {
-    background: url(../images/benefits/Rank-desktop.png);
+    background: url(../images/benefits/Rank-desktop.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -145,7 +141,7 @@
 }
 
 .rating {
-  background: url(../images/benefits/Rating-mobile.png);
+  background: url(../images/benefits/Rating-mobile.webp);
   background-repeat: no-repeat;
 	background-size:contain;
 	background-position: center;
@@ -153,7 +149,7 @@
 
 @media screen and (min-width:768px) {
   .rating {
-    background: url(../images/benefits/Rating-desktop.png);
+    background: url(../images/benefits/Rating-desktop.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -245,4 +241,82 @@ line-height: 10.25vw;
     font-size: 40px;
     line-height: 40px;
     }
+}
+
+.lang-HU [data-translate="benefitsBest"],
+.lang-PT [data-translate="benefitsBest"],
+.lang-CZ [data-translate="benefitsBest"],
+.lang-RU [data-translate="benefitsBest"] {
+font-size: 2.8vw;
+}
+.lang-HU [data-translate="casinoRank"],
+.lang-PT [data-translate="casinoRank"],
+.lang-CZ [data-translate="casinoRank"],
+.lang-RU [data-translate="casinoRank"] {
+font-size: 2.8vw;
+}
+.lang-HU [data-translate="playerRating"],
+.lang-PT [data-translate="playerRating"],
+.lang-CZ [data-translate="playerRating"],
+.lang-RU [data-translate="playerRating"] {
+font-size: 2.8vw;
+}
+
+.lang-HU [data-translate="benefitsYear"],
+.lang-PT [data-translate="benefitsYear"],
+.lang-CZ [data-translate="benefitsYear"],
+.lang-RU [data-translate="benefitsYear"] {
+font-size: 6vw;
+}
+.lang-HU [data-translate="great"],
+.lang-PT [data-translate="great"],
+.lang-CZ [data-translate="great"],
+.lang-RU [data-translate="great"] {
+font-size: 6vw;
+}
+.lang-HU [data-translate="reviews"],
+.lang-PT [data-translate="reviews"],
+.lang-CZ [data-translate="reviews"],
+.lang-RU [data-translate="reviews"] {
+font-size: 6vw;
+}
+
+@media screen and (min-width:768px) {
+  .lang-HU [data-translate="benefitsBest"],
+.lang-PT [data-translate="benefitsBest"],
+.lang-CZ [data-translate="benefitsBest"],
+.lang-RU [data-translate="benefitsBest"] {
+font-size: 1.6vw;
+}
+.lang-HU [data-translate="casinoRank"],
+.lang-PT [data-translate="casinoRank"],
+.lang-CZ [data-translate="casinoRank"],
+.lang-RU [data-translate="casinoRank"] {
+font-size: 1.6vw;
+}
+.lang-HU [data-translate="playerRating"],
+.lang-PT [data-translate="playerRating"],
+.lang-CZ [data-translate="playerRating"],
+.lang-RU [data-translate="playerRating"] {
+font-size: 1.6vw;
+}
+
+.lang-HU [data-translate="benefitsYear"],
+.lang-PT [data-translate="benefitsYear"],
+.lang-CZ [data-translate="benefitsYear"],
+.lang-RU [data-translate="benefitsYear"] {
+font-size: 2vw;
+}
+.lang-HU [data-translate="great"],
+.lang-PT [data-translate="great"],
+.lang-CZ [data-translate="great"],
+.lang-RU [data-translate="great"] {
+font-size: 2vw;
+}
+.lang-HU [data-translate="reviews"],
+.lang-PT [data-translate="reviews"],
+.lang-CZ [data-translate="reviews"],
+.lang-RU [data-translate="reviews"] {
+font-size: 2vw;
+}
 }

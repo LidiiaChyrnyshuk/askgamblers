@@ -4,7 +4,9 @@
 			title: "welcome BONUS",
 			promoSubtext: "up to",
 			promoCurrency: "7000 USDT",
-			bonus: "+50 Free spins",
+			modalPromoCurrency: "7000 USDT",
+			bonus: "+ 50 Free spins",
+			modalBonus: "+ 50 Free spins",
 			deposit: "without deposit",
 			btnRegistration: "Registration",
 			titleBenefits: "Recommended by Askgamblers",
@@ -25,8 +27,13 @@
 		HU: {
 			title: "Üdvözlő bónusz",
 			promoSubtext: "up to",
+			modalPromoSubtext: "up to",
+			percent: "350%",
+			modalPercent: "350%",
 			promoCurrency: "2 800 000 HUF",
+			modalPromoCurrency: "2 800 000 HUF",
 			bonus: "+ 50 ingyenes pörgetés",
+			modalBonus: "+ 50 ingyenes pörgetés",
 			deposit: "befizetés nélkül",
 			btnRegistration: "Regisztráció",
 			titleBenefits: "Askgamblers ajánlásával",
@@ -48,7 +55,9 @@
 			title: "Bónus de boas-vindas",
 			promoSubtext: "up to",
 			promoCurrency: "6 800 EUR",
-			bonus: "+ 50  rodadas grátis",
+			modalPromoCurrency: "6 800 EUR",
+			bonus: "+ 50 rodadas grátis",
+			modalBonus: "+ 50 rodadas grátis",
 			deposit: "sem depósito",
 			btnRegistration: "Regista-te",
 			titleBenefits: "Recomendado por Askgamblers",
@@ -69,14 +78,16 @@
 		RU: {
 			title: "welcome BONUS",
 			promoSubtext: "up to",
-			promoCurrency: " 700 000 RUB",
+			promoCurrency: "700 000 RUB",
+			modalPromoCurrency: "700 000 RUB",
 			bonus: "+ 50 фриспинов",
+			modalBonus: "+ 50 фриспинов",
 			deposit: "без депозита",
 			btnRegistration: "Регистрация",
 			titleBenefits: "Askgamblers рекомендует",
 			benefitsTop: "ТОП 10",
 			benefitsBest: "лучших казино",
-			benefitsYear: "2024 года",
+			benefitsYear: "2024",
 			casinoRank: "Casino Rank",
 			great: "Отлично",
 			playerRating: " Рейтинг игроков",
@@ -92,7 +103,9 @@
 			title: "Uvítací bonus",
 			promoSubtext: "up to",
 			promoCurrency: "6 800 EUR",
+			modalPromoCurrency: "6 800 EUR",
 			bonus: "+ 50 roztočení zdarma",
+			modalBonus: "+ 50 roztočení zdarma",
 			deposit: "bez vkladu",
 			btnRegistration: "Registrovat",
 			titleBenefits: "Doporučeno Askgamblers",
@@ -114,7 +127,9 @@
 			title: "welcome BONUS",
 			promoSubtext: "up to",
 			promoCurrency: "10 000 CAD",
+			modalPromoCurrency: "10 000 CAD",
 			bonus: "+50 Free spins",
+			modalBonus: "+ 50 Free spins",
 			deposit: "without deposit",
 			btnRegistration: "Registration",
 			titleBenefits: "Recommended by Askgamblers",
@@ -142,6 +157,8 @@
 
 	const applyLanguage = (lang) => {
 		if (!translations[lang]) return;
+
+		document.body.className = `lang-${lang}`;
 
 		document.querySelectorAll("[data-translate]").forEach((el) => {
 			const key = el.dataset.translate;

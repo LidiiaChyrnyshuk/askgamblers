@@ -36,7 +36,7 @@ const swiper4 = new Swiper(".swiper-4", {
 	speed: 1000,
 	loop: true,
 	spaceBetween: 20,
-	slidesPerView: 4,
+	slidesPerView: 3,
 	allowTouchMove: false,
 	simulateTouch: false,
 	autoplay: {

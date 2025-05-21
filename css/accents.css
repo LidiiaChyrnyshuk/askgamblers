@@ -53,3 +53,25 @@
   height: 700px;
   z-index: 1;
 }
+
+@media screen and (min-width: 1024px) {
+  .accent4 {
+    position: absolute;
+    bottom: -350px;
+    left: 200px;
+    width: 700px;
+    height: 700px;
+    z-index: 1;
+  }
+}
+
+@media screen and (min-width: 1512px) {
+  .accent4 {
+    position: absolute;
+    bottom: -350px;
+    left: 400px;
+    width: 700px;
+    height: 700px;
+    z-index: 1;
+  }
+}

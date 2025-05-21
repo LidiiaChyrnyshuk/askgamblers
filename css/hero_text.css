@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 768px) {
 	.bonus {
-		font-size: 48px;
+		font-size: 46px;
 	}
 }
 
@@ -95,4 +95,33 @@
 	text-transform: uppercase;
 }
 
+.lang-HU [data-translate="percent"],
+.lang-HU [data-translate="promoSubtext"],
+.lang-HU [data-translate="promoCurrency"]{
+	font-size: clamp(28px, 5vw, 46px);
+}
+
+.lang-HU [data-translate="bonus"],
+.lang-PT [data-translate="bonus"],
+.lang-CZ [data-translate="bonus"] {
+	font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+.lang-HU [data-translate="bonus"],
+.lang-PT [data-translate="bonus"],
+.lang-CZ [data-translate="bonus"] {
+	font-size: 28px;
+}
+}
+
+.lang-RU [data-translate="bonus"] {
+	font-size: 26px;
+}
+
+@media screen and (min-width: 768px) {
+	.lang-RU [data-translate="bonus"] {
+		font-size: 40px;
+	}
+}
 
