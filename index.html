@@ -5,6 +5,7 @@
 		<link type="image/x-icon" rel="shortcut icon" href="./logo.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>WEISS</title>
+		<script>window.__REDIRECT_LINK = "%%redirect_to%%"</script>
 		<link rel="stylesheet" href="./css/normalize.css" />
 		<link rel="stylesheet" href="./css/main.css" />
 		<link
@@ -17,7 +18,7 @@
 		/>
 		<script>
 			(function () {
-				const supported = ["ru", "en", "hu", "cz", "pt",];
+				const supported = ["ru", "en", "hu", "cs", "pt",];
 				let lang = navigator.language.split("-")[0].toLowerCase();
 				if (!supported.includes(lang)) lang = "en";
 
@@ -73,15 +74,15 @@
 					</div>
 				</div>
 				<div class="hero-text ">
-					<h2 class="title" data-translate="title">welcome BONUS</h2>
-					<h1 class="promowrap">
+					<h1 class="title" data-translate="title">welcome BONUS</h1>
+					<h2 class="promowrap">
 						<span class="promoCurrency" data-translate="percent">350%</span>
 						<span class="promoSubtext" data-translate="promoSubtext">up to</span
 						><br />
 						<span class="promoCurrency" data-translate="promoCurrency">
 							7000 USDT</span
 						>
-					</h1>
+					</h2>
 					<div class="bonus-wrap">
 						<p class="bonus" data-translate="bonus">+50 Free spins</p>
 					</div>
@@ -419,7 +420,7 @@
 							/>
 						</label>
 						<label class="modal-check modal-label">
-							<input class="modal-checkbox" type="checkbox" name="terms" />
+							<input class="modal-checkbox" type="checkbox" name="terms" required/>
 							<span>
 								<span data-translate="checkbox"
 									>Ставя галочку в этом поле для регистрации на сайте,
