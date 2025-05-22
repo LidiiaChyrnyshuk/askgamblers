@@ -20,7 +20,8 @@
 	},
 	"homepage": "https://github.com/LidiiaChyrnyshuk/askgamblers#readme",
 	"devDependencies": {
-		"parcel": "^2.15.0"
+		"parcel": "^2.15.0",
+		"process": "^0.11.10"
 	},
 	"dependencies": {
 		"notyf": "^3.10.0"
