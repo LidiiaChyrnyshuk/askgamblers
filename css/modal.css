@@ -75,7 +75,7 @@
 	}
 }
 
-.modal-header::after {
+/* .modal-header::after {
 	content: "";
 	position: absolute;
 	inset: 0;
@@ -86,6 +86,18 @@
 	background-repeat: no-repeat, no-repeat;
 	background-size: contain, 186px auto;
 	background-position: 100px 0, 180px 40px;
+	opacity: 1;
+} */
+.modal-header::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	z-index: 2;
+	background-image:url(../images/form/girl_modal_mob.png), url(../images/hero/pattern.png);
+	background-repeat: no-repeat, no-repeat;
+	background-size:  186px auto,contain;
+	background-position:180px 40px, 100px 0 ;
 	opacity: 1;
 }
 
