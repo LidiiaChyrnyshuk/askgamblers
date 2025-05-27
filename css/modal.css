@@ -75,19 +75,7 @@
 	}
 }
 
-/* .modal-header::after {
-	content: "";
-	position: absolute;
-	inset: 0;
-	pointer-events: none;
-	z-index: 2;
-	background-image: url(../images/hero/pattern.png),
-		url(../images/form/girl_modal_mob.png);
-	background-repeat: no-repeat, no-repeat;
-	background-size: contain, 186px auto;
-	background-position: 100px 0, 180px 40px;
-	opacity: 1;
-} */
+
 .modal-header::after {
 	content: "";
 	position: absolute;
@@ -101,12 +89,13 @@
 	opacity: 1;
 }
 
+
+
 @media screen and (min-width: 1024px) {
 	.modal-header::after {
-		background-image: url(../images/hero/pattern.png),
-			url(../images/form/girl-modal.png);
-		background-size: contain, 240px auto;
-		background-position: 100px 0, 220px 0;
+		background-image:	url(../images/form/girl-modal.png), url(../images/hero/pattern.png);
+		background-size:240px auto, contain ;
+		background-position: 205px 0, 100px 0;
 	}
 }
 
@@ -162,6 +151,8 @@
 }
 
 .modal-promowrap {
+	position: relative;
+	z-index: 5;
 	margin-bottom: 8px;
 }
 
@@ -194,6 +185,8 @@
 }
 
 .modal-bonus-wrap {
+	position: relative;
+	z-index: 5;
 	width: 153px;
 	height: 32px;
 	padding-top: 8px;
