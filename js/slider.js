@@ -1,5 +1,5 @@
 const swiper1 = new Swiper(".swiper-1", {
-	speed: 1000,
+	speed: 800,
 	loop: true,
 	spaceBetween: 10,
 	freeMode: true,
@@ -33,14 +33,15 @@ const swiper3 = new Swiper(".swiper-3", {
 });
 
 const swiper4 = new Swiper(".swiper-4", {
-	speed: 1000,
+	speed: 2000,
 	loop: true,
 	spaceBetween: 20,
 	slidesPerView: 3,
 	allowTouchMove: false,
 	simulateTouch: false,
 	autoplay: {
-		delay: 2000,
+		delay: 0,
+		disableOnInteraction: false,
 	},
 	breakpoints: {
 		768: {
