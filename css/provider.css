@@ -1,3 +1,17 @@
+.provider {
+  position: relative;
+  overflow: hidden;
+}
+
+.provider .swiper {
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
 .swiper-4 {
 	position: relative;
   width: 100%;
