@@ -1,5 +1,5 @@
 const swiper1 = new Swiper(".swiper-1", {
-	speed: 800,
+	speed: 500,
 	loop: true,
 	spaceBetween: 10,
 	freeMode: true,
@@ -33,7 +33,7 @@ const swiper3 = new Swiper(".swiper-3", {
 });
 
 const swiper4 = new Swiper(".swiper-4", {
-	speed: 2000,
+	speed: 1000,
 	loop: true,
 	spaceBetween: 20,
 	slidesPerView: 3,
