@@ -6,7 +6,7 @@ const swiper1 = new Swiper(".swiper-1", {
 	slidesPerView: 4.5,
 	freeModeMomentum: false,
 	allowTouchMove: false,
-  simulateTouch: false,
+	simulateTouch: false,
 	autoplay: {
 		delay: 0,
 		disableOnInteraction: false,

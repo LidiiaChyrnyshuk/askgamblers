@@ -30,7 +30,7 @@
   height: 64px;
 }
 
-.swiper-1::after {
+/* .swiper-1::after {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -64,7 +64,7 @@
 	backdrop-filter: blur(3px);
 	pointer-events: none; 
 	z-index: 10;
-}
+} */
 
 .swiper-wrapper {
   -webkit-transition-timing-function: linear !important;
