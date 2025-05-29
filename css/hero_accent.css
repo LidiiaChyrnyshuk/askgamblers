@@ -11,7 +11,7 @@
 		position: absolute;
 		bottom: 0;
 		right: -60px;
-		transform: translateX(-5%);
+		transform: translateX(-8%);
 		width: 456px;
 		transition: transform 0.2s;
 	}
@@ -21,7 +21,7 @@
 		position: absolute;
 		bottom: 0;
 		right:0;
-		transform: translateX(-8%);
+		transform: translateX(-4%);
 		width: 466px;
 	}
 }
@@ -31,6 +31,7 @@
 		position: absolute;
 		bottom: 0;
 		right: 0;
+		transform: translateX(6%);
 		width: 500px;
 	}
 }
@@ -60,7 +61,7 @@
 		position: absolute;
 		bottom: 0;
 		right: 0;
-		transform: translateX(-40%);
+		transform: translateX(-30%);
 		width: 623px;
 	}
 }

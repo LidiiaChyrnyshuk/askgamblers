@@ -66,6 +66,23 @@
 
 @media screen and (min-width: 768px) {
 	.bonus-wrap {
+		width: 42.54vw;
+		height: 8.82vw;
+		border-radius: 2.74vw;
+		margin-bottom: 16px;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.bonus-wrap {
+		width: 434px;
+		height: 90px;
+		border-radius: 1.85vw;
+		margin-bottom: 16px;
+	}
+}
+
+@media screen and (min-width: 1512px) {
+	.bonus-wrap {
 		width: 434px;
 		height: 90px;
 		border-radius: 28px;
@@ -75,22 +92,18 @@
 
 .bonus {
 	font-weight: 700;
-	font-size: 30px;
+	font-size: clamp(30px, 3.5vw, 46px);
+	/* font-size: 30px; */
 	line-height: 100%;
 	text-transform: uppercase;
 	color: rgba(255, 174, 127, 1);
 
 }
 
-@media screen and (min-width: 768px) {
-	.bonus {
-		font-size: 46px;
-	}
-}
 
 .deposit {
 	font-weight: 400;
-	font-size: clamp(16px, 4vw, 24px);
+	font-size: clamp(16px, 3.5vw, 24px);
 	line-height: 1;
 	text-transform: uppercase;
 }
@@ -104,24 +117,13 @@
 .lang-HU [data-translate="bonus"],
 .lang-PT [data-translate="bonus"],
 .lang-CZ [data-translate="bonus"] {
-	font-size: 18px;
+	font-size: clamp(18px, 2.5vw, 28px);
 }
 
-@media screen and (min-width: 768px) {
-.lang-HU [data-translate="bonus"],
-.lang-PT [data-translate="bonus"],
-.lang-CZ [data-translate="bonus"] {
-	font-size: 28px;
-}
-}
 
 .lang-RU [data-translate="bonus"] {
-	font-size: 26px;
+	font-size: clamp(26px, 3vw, 40px);
+
 }
 
-@media screen and (min-width: 768px) {
-	.lang-RU [data-translate="bonus"] {
-		font-size: 40px;
-	}
-}
 
