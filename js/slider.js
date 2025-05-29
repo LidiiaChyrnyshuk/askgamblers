@@ -2,9 +2,7 @@ const swiper1 = new Swiper(".swiper-1", {
 	speed: 500,
 	loop: true,
 	spaceBetween: 10,
-	freeMode: true,
 	slidesPerView: 4.5,
-	freeModeMomentum: false,
 	allowTouchMove: false,
 	simulateTouch: false,
 	autoplay: {
@@ -21,7 +19,9 @@ const swiper1 = new Swiper(".swiper-1", {
 			spaceBetween: 20,
 		},
 	},
+
 });
+
 
 const swiper3 = new Swiper(".swiper-3", {
 	speed: 1000,
