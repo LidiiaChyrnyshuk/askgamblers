@@ -1,16 +1,16 @@
 .loyalty {
 	width: 100%;
-	max-width: 1512px;
-	padding-top: 32px;
+	
+/* 	padding-top: 32px;
 	padding-right: 24px;
 	padding-bottom: 32px;
-	padding-left: 24px;
+	padding-left: 24px; */
 	pointer-events: none;
-  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.loyalty {
+		max-width: 1020px;
 		padding-top: 60px;
 		padding-bottom: 60px;
 	}
@@ -18,6 +18,7 @@
 
 @media screen and (min-width: 1024px) {
 	.loyalty {
+		max-width: 1512px;
 		padding-top: 60px;
 		padding-bottom: 60px;
 		padding-right: 156px;
@@ -26,11 +27,42 @@
 }
 
 .loyalty-slide {
-  width: 64px;
-  height: 64px;
+	width: 64px;
+	height: 64px;
+}
+
+.swiper-1 {
+	position: relative;
+}
+
+.swiper-1::after {
+	content: "";
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2) 10%,
+    rgba(0, 0, 0, 0.1) 20%,
+    rgba(0, 0, 0, 0) 30%,
+    rgba(0, 0, 0, 0) 70%,
+    rgba(0, 0, 0, 0.1) 80%,
+    rgba(0, 0, 0, 0.2) 90%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+	pointer-events: none;
+	z-index: 10;
 }
 
 .swiper-wrapper {
-  -webkit-transition-timing-function: linear !important;
-          transition-timing-function: linear !important;
+	-webkit-transition-timing-function: linear !important;
+	transition-timing-function: linear !important;
 }
