@@ -1,6 +1,9 @@
 .provider {
+  max-width: 1512px;
   position: relative;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .provider .swiper {

@@ -1,7 +1,7 @@
 .hero {
 	position: relative;
 	width: 100%;
-	max-width: 1512px;
+	max-width: 2400px;
 	padding: 24px;
 	z-index: 3;
 	display: flex;
@@ -55,11 +55,11 @@
 
 @media screen and (min-width: 1512px) {
 .hero {
-
+	max-width: 2400px;
 	background: url(../images/hero/Ellipse_500.webp),
 	url(../images/hero/pattern.webp);
 background-repeat: no-repeat, no-repeat;
 background-size: cover, contain;
-background-position: 400px -700px, 490px 0;
+background-position: 400px -700px, 790px 0;
 }
 }

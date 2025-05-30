@@ -1,12 +1,13 @@
 .games {
 	width: 100%;
-	max-width: 1512px;
+	max-width: 2400px;
 	position: relative;
 	padding-top: 32px;
 	padding-right: 24px;
 	padding-bottom: 32px;
 	padding-left: 24px;
 	z-index: 10;
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -134,12 +135,12 @@
 		aspect-ratio: 450 / 220;
 	}
 }
-@media screen and (min-width: 1512px) {
+/* @media screen and (min-width: 1512px) {
 	.item-wrap {
 		width: 450px;
 		height: 220px;
 	}
-}
+} */
 
 .item1 {
 	width: 100%;
@@ -161,12 +162,12 @@
 		aspect-ratio: 216 / 220;
 	}
 }
-@media screen and (min-width: 1512px) {
+/* @media screen and (min-width: 1512px) {
 	.item2 {
 		width: 216px;
 		height: 220px;
 	}
-}
+} */
 
 
 @media screen and (min-width: 768px) {
@@ -193,12 +194,12 @@
 		aspect-ratio: 1 / 1;
 	}
 }
-@media screen and (min-width: 1512px) {
+/* @media screen and (min-width: 1512px) {
 	.item3 {
 		width: 150px;
 		height: 150px;
 	}
-}
+} */
 
 .btn-wrap {
 	display: flex;
