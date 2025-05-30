@@ -31,7 +31,7 @@
 
 .promoCurrency {
 	font-weight: 700;
-	font-size: clamp(28px, 7vw, 64px);
+	font-size: clamp(28px, 5vw, 64px);
 	line-height: 1;
 	text-transform: uppercase;
 }
@@ -39,7 +39,7 @@
 
 .promoSubtext {
 	font-weight: 200;
-	font-size: clamp(28px, 7vw, 64px);
+	font-size: clamp(28px,5vw, 64px);
 	line-height: 1;
 	text-transform: uppercase;
 }
@@ -111,13 +111,13 @@
 .lang-HU [data-translate="percent"],
 .lang-HU [data-translate="promoSubtext"],
 .lang-HU [data-translate="promoCurrency"]{
-	font-size: clamp(28px, 5vw, 46px);
+	font-size: clamp(28px, 3.5vw, 46px);
 }
 
 .lang-HU [data-translate="bonus"],
 .lang-PT [data-translate="bonus"],
 .lang-CZ [data-translate="bonus"] {
-	font-size: clamp(18px, 2.5vw, 28px);
+	font-size: clamp(18px, 2.4vw, 28px);
 }
 
 
