@@ -55,6 +55,7 @@
 
 @media screen and (min-width: 1512px) {
 .hero {
+
 	background: url(../images/hero/Ellipse_500.webp),
 	url(../images/hero/pattern.webp);
 background-repeat: no-repeat, no-repeat;
