@@ -50,8 +50,8 @@ body {
 		max-width: 1512px;
 	}
 }
-@media screen and (min-width: 1512px) {
+/* @media screen and (min-width: 1512px) {
 	.container {
 		max-width: 2400px;
 	}
-}
+} */

@@ -40,11 +40,11 @@
 	line-height: 1;
 	text-transform: uppercase;
 }
-@media screen and (min-width: 1512px) {
+/* @media screen and (min-width: 1512px) {
 	.promoCurrency {
 		font-size: 4.23vw;
 	}
-}
+} */
 
 .promoSubtext {
 	font-weight: 200;
@@ -52,11 +52,11 @@
 	line-height: 1;
 	text-transform: uppercase;
 }
-@media screen and (min-width: 1512px) {
+/* @media screen and (min-width: 1512px) {
 	.promoSubtext {
 		font-size: 4.23vw;
 	}
-}
+} */
 
 .bonus-wrap {
 	width: 289px;
