@@ -54,7 +54,9 @@
 .infinite-track {
 	display: flex;
 	gap: 24px;
-	animation: scroll-left-mobile 8s linear infinite;
+	animation: scroll-left-mobile 10s linear infinite;
+  backface-visibility: hidden;
+	transform: translate3d(0, 0, 0);
 }
 
 .slide {
