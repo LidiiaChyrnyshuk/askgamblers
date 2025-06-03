@@ -29,18 +29,18 @@ const swiper3 = new Swiper(".swiper-3", {
 	spaceBetween: 0,
 	slidesPerView: 1.5,
 	centeredSlides: false,
-	grabCursor: true, // показує "лапку" при наведенні
+	grabCursor: true,
 });
 
 const swiper4 = new Swiper(".swiper-4", {
-	speed: 1300,
+	speed: 2000,
 	loop: true,
 	spaceBetween: 20,
 	slidesPerView: 3.5,
 	allowTouchMove: false,
 	simulateTouch: false,
 	autoplay: {
-		delay: 0,
+		delay: 1,
 		disableOnInteraction: false,
 	},
 	breakpoints: {
