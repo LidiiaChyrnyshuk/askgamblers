@@ -33,7 +33,7 @@ const swiper3 = new Swiper(".swiper-3", {
 });
 
 const swiper4 = new Swiper(".swiper-4", {
-	speed: 2000,
+	speed: 1300,
 	loop: true,
 	spaceBetween: 20,
 	slidesPerView: 3.5,

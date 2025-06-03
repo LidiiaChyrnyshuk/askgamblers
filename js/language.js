@@ -135,7 +135,7 @@
 			titleBenefits: "Recommended by Askgamblers",
 			benefitsTop: "TOP 10",
 			benefitsBest: "Вest Сasino",
-			benefitsYear: "",
+			benefitsYear: "2024",
 			casinoRank: "Casino Rank",
 			great: "Great",
 			playerRating: "Player Rating",
