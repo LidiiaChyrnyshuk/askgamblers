@@ -28,10 +28,32 @@
 	}
 }
 
+.infinite-slider::before,
+.infinite-slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 10%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.infinite-slider::before {
+  left: 0;
+	background: linear-gradient(to left, transparent, rgba(16, 15, 15, 1) 100%);
+}
+
+.infinite-slider::after {
+  right: 0;
+	background: linear-gradient(to right, transparent, rgba(16, 15, 15, 1) 100%);
+}
+
 .infinite-slider {
 	width: 100%;
 	overflow: hidden;
-	-webkit-mask-image: linear-gradient(
+	position: relative;
+/* 	-webkit-mask-image: linear-gradient(
 		to right,
 		transparent 0%,
 		black 10%,
@@ -48,7 +70,7 @@
 	-webkit-mask-size: 100% 100%;
 	mask-size: 100% 100%;
 	-webkit-mask-repeat: no-repeat;
-	mask-repeat: no-repeat;
+	mask-repeat: no-repeat; */
 }
 
 .infinite-track {

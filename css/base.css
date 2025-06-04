@@ -36,8 +36,8 @@ body {
 				url(../images/hero/Ellipse_300.png),
 			url(../images/hero/Ellipse_300.png);
 		background-repeat: no-repeat,  no-repeat,  no-repeat, no-repeat;
-		background-size: contain, auto 600px , 352px 452px, 342px 442px;
-		background-position: top center,  300px 0, center left -50px, top 80% right -100px ;
+		background-size: 800px 800px, auto 600px , 352px 452px, 342px 442px;
+		background-position: top -200px right -200px,  300px 0, center left -50px, top 80% right -100px ;
 		align-items: start;
 		justify-content: start;
 	}
@@ -49,8 +49,8 @@ body {
 			url(../images/hero/pattern.webp), url(../images/hero/Ellipse_300.png),
 			url(../images/hero/Ellipse_300.png);
 		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-		background-size: contain, auto 660px, 352px 452px, 342px 442px;
-		background-position: top right, 500px 0, center left, top 80% right -100px;
+		background-size: 900px 900px, auto 660px, 352px 452px, 342px 442px;
+		background-position: top -200px right -100px, 500px 0, center left, top 80% right -100px;
 	}
 }
 
@@ -60,8 +60,8 @@ body {
 			url(../images/hero/pattern.webp), url(../images/hero/Ellipse_300.png),
 			url(../images/hero/Ellipse_300.png);
 		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-		background-size:70.52vw 660px, auto 660px,352px 452px, 342px 442px;
-		background-position: top right , top right , center left,top 80% right ;
+		background-size:70.52vw auto, auto 660px,352px 452px, 342px 442px;
+		background-position: top -300px right , top right , center left,top 80% right ;
 	}
 }
 
@@ -71,8 +71,8 @@ body {
 			url(../images/hero/pattern.webp), url(../images/hero/Ellipse_300.png),
 			url(../images/hero/Ellipse_300.png);
 		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-		background-size:70.52vw 660px, 55.52vw 660px,352px 452px, 342px 442px;
-		background-position: top right , top right , center left,top 80% right ;
+		background-size: auto 50.52vw, 55.52vw 660px,352px 452px, 342px 442px;
+		background-position: top -300px right 30%, top right , center left,top 80% right ;
 	}
 }
 .container {
