@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px) {
 .hero {
 	position: relative;
 	width: 100%;
@@ -11,49 +12,56 @@
 	background-image: url(../images/hero/Ellipse_500.webp),
 		url(../images/hero/pattern.webp);
 	background-repeat: no-repeat, no-repeat;
-	background-size: cover, 595px 595px;
+	background-size: cover, contain;
 	background-position: -200px 100px, 0 280px;
 	margin: 0 auto;
 }
-
-@media screen and (min-width: 768px) {
-	.hero {
-		align-items: start;
-		justify-content: start;
-	}
 }
+
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 	.hero {
+		position: relative;
+		width: 100%;
 		max-width: 1020px;
 		padding-left: 24px;
 		padding-top: 48px;
 		padding-right: 24px;
 		padding-bottom: 48px;
-		background: url(../images/hero/Ellipse_500.webp),
+/* 		background: url(../images/hero/Ellipse_500.webp),
 			url(../images/hero/pattern.webp);
 		background-repeat: no-repeat, no-repeat;
 		background-size: cover, contain;
-		background-position: 190px -300px, 300px 0;
+		background-position: 190px -300px, 300px 0; */
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: start;
 	}
 }
 @media screen and (min-width: 1024px) {
 	.hero {
+		position: relative;
+		width: 100%;
 		max-width: 1512px;
 		height: 658px;
 		padding-left: 156px;
 		padding-top: 60px;
 		padding-right: 156px;
 		padding-bottom: 60px;
-		background: url(../images/hero/Ellipse_500.webp),
+/* 		background: url(../images/hero/Ellipse_500.webp),
 			url(../images/hero/pattern.webp);
 		background-repeat: no-repeat, no-repeat;
 		background-size: cover, contain;
-		background-position: 300px -400px, 400px 0;
+		background-position: 300px -400px, 400px 0; */
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: start;
 	}
 }
 
-@media screen and (min-width: 1512px) {
+/* @media screen and (min-width: 1512px) {
 .hero {
 
 	background: url(../images/hero/Ellipse_500.webp),
@@ -62,4 +70,4 @@ background-repeat: no-repeat, no-repeat;
 background-size: cover, contain;
 background-position: 400px -700px, 590px 0;
 }
-}
+} */

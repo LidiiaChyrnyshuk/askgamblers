@@ -29,6 +29,52 @@ body {
 	justify-content: center;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	body {
+		background-image: url(../images/hero/Ellipse_500.webp),
+			url(../images/hero/pattern.webp),
+				url(../images/hero/Ellipse_300.png),
+			url(../images/hero/Ellipse_300.png);
+		background-repeat: no-repeat,  no-repeat,  no-repeat, no-repeat;
+		background-size: contain, auto 600px , 352px 452px, 342px 442px;
+		background-position: top center,  300px 0, center left -50px, top 80% right -100px ;
+		align-items: start;
+		justify-content: start;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		background-image: url(../images/hero/Ellipse_500.webp),
+			url(../images/hero/pattern.webp), url(../images/hero/Ellipse_300.png),
+			url(../images/hero/Ellipse_300.png);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-size: contain, auto 660px, 352px 452px, 342px 442px;
+		background-position: top right, 500px 0, center left, top 80% right -100px;
+	}
+}
+
+@media screen and (min-width: 1512px) {
+	body {
+		background-image: url(../images/hero/Ellipse_500.webp),
+			url(../images/hero/pattern.webp), url(../images/hero/Ellipse_300.png),
+			url(../images/hero/Ellipse_300.png);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-size:70.52vw 660px, auto 660px,352px 452px, 342px 442px;
+		background-position: top right , top right , center left,top 80% right ;
+	}
+}
+
+@media screen and (min-width: 1850px) {
+	body {
+		background-image: url(../images/hero/Ellipse_500.webp),
+			url(../images/hero/pattern.webp), url(../images/hero/Ellipse_300.png),
+			url(../images/hero/Ellipse_300.png);
+		background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+		background-size:70.52vw 660px, 55.52vw 660px,352px 452px, 342px 442px;
+		background-position: top right , top right , center left,top 80% right ;
+	}
+}
 .container {
 	position: relative;
 	width: 100%;
