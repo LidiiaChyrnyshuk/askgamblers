@@ -151,7 +151,7 @@
 	width: 16.86vw;
 	aspect-ratio: 1 / 1;
 	border-radius: 34px;
-	/* border: 1px solid rgba(255, 255, 255, 0.24); */
+	
 	overflow: hidden;
   object-fit:cover;
 }
@@ -184,7 +184,7 @@
 	width: 11.57vw;
 	aspect-ratio: 118 / 120;
 	border-radius: 24px;
-	/* border: 0.75px solid rgba(255, 255, 255, 0.24); */
+
 	overflow: hidden;
 }
 

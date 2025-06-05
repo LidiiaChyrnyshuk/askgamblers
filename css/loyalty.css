@@ -52,15 +52,6 @@
 	mask-repeat: no-repeat;
 }
 
-/* .infinite-track {
-	display: flex;
-	gap: 24px;
-	animation: scroll-loop 10s linear infinite;
-	width: max-content;
-	will-change: transform;
-	backface-visibility: hidden;
-  transform: translate3d(0, 0, 0);
-} */
 .infinite-track {
 	display: flex;
 	gap: 24px;
@@ -83,12 +74,3 @@
 	width: 64px;
 	height: 64px;
 }
-
-/* @keyframes scroll-loop {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-} */
