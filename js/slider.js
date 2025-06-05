@@ -32,7 +32,7 @@ const swiper3 = new Swiper(".swiper-3", {
 	grabCursor: true,
 });
 
-const swiper4 = new Swiper(".swiper-4", {
+/* const swiper4 = new Swiper(".swiper-4", {
 	speed: 2000,
 	loop: true,
 	spaceBetween: 20,
@@ -53,5 +53,5 @@ const swiper4 = new Swiper(".swiper-4", {
 			spaceBetween: 40,
 		},
 	},
-});
+}); */
 
