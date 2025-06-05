@@ -3,18 +3,19 @@ window.addEventListener("load", () => {
 	const speed = 0.8;
 	let offset = 0;
 
-	// Клонуємо слайди для безперервного ефекту
+	const computedStyle = window.getComputedStyle(track);
+	const gap = parseFloat(computedStyle.columnGap || computedStyle.gap || 24);
+
 	const slides = Array.from(track.children);
 	slides.forEach((slide) => {
 		const clone = slide.cloneNode(true);
 		track.appendChild(clone);
 	});
 
-	// Розрахунок ширини контенту
 	const totalWidth = slides.reduce(
-		(sum, slide) => sum + slide.offsetWidth + 24,
+		(sum, slide) => sum + slide.offsetWidth + gap,
 		0
-	); // 24px gap
+	);
 
 	function animate() {
 		offset += speed;
