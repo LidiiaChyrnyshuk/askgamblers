@@ -5,7 +5,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	pointer-events: none;
-/* 	margin-bottom: 32px; */
+	/* 	margin-bottom: 32px; */
 }
 
 .infinite-slider-4 {
@@ -53,10 +53,22 @@
 }
 
 .infinite-track-4 {
-  display: flex;
-  gap: 24px;
-  will-change: transform;
-  width: max-content;
+	display: flex;
+	gap: 24px;
+	will-change: transform;
+	width: max-content;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.infinite-track-4 {
+		gap: 50px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.infinite-track-4 {
+		gap: 60px;
+	}
 }
 
 .slide-4 {
@@ -73,8 +85,3 @@
 	width: auto;
 	display: block;
 }
-
-/* .swiper-wrapper {
-	-webkit-transition-timing-function: linear !important;
-	transition-timing-function: linear !important;
-} */

@@ -84,11 +84,11 @@
 	height: 64px;
 }
 
-@keyframes scroll-loop {
+/* @keyframes scroll-loop {
   0% {
     transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);
   }
-}
+} */
