@@ -1,26 +1,3 @@
-/* const swiper1 = new Swiper(".swiper-1", {
-	speed: 500,
-	loop: true,
-	spaceBetween: 10,
-	slidesPerView: 4.5,
-	allowTouchMove: false,
-	simulateTouch: false,
-	autoplay: {
-		delay: 0,
-		disableOnInteraction: false,
-	},
-	breakpoints: {
-		768: {
-			slidesPerView: 8.5,
-			spaceBetween: 30,
-		},
-		1024: {
-			slidesPerView: 10.5,
-			spaceBetween: 20,
-		},
-	},
-
-}); */
 
 
 const swiper3 = new Swiper(".swiper-3", {
@@ -32,26 +9,4 @@ const swiper3 = new Swiper(".swiper-3", {
 	grabCursor: true,
 });
 
-/* const swiper4 = new Swiper(".swiper-4", {
-	speed: 2000,
-	loop: true,
-	spaceBetween: 20,
-	slidesPerView: 3.5,
-	allowTouchMove: false,
-	simulateTouch: false,
-	autoplay: {
-		delay: 1,
-		disableOnInteraction: false,
-	},
-	breakpoints: {
-		768: {
-			slidesPerView: 5,
-			spaceBetween: 30,
-		},
-		1024: {
-			slidesPerView: 5,
-			spaceBetween: 40,
-		},
-	},
-}); */
 

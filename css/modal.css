@@ -394,7 +394,7 @@ input::placeholder {
 	align-items: center;
 }
 
-.g-recaptcha {
+.captcha-wrapper div {
 	transform: scale(1);
 	transform-origin: 0 0;
 }

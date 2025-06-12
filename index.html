@@ -15,20 +15,6 @@
 			rel="stylesheet"
 			href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css"
 		/>
-
-		<script>
-			(function () {
-				const supported = ["ru", "en", "hu", "cs", "pt"];
-				let lang = navigator.language.split("-")[0].toLowerCase();
-				if (!supported.includes(lang)) lang = "en";
-
-				const script = document.createElement("script");
-				script.src = `https://www.google.com/recaptcha/api.js?hl=${lang}`;
-				script.async = true;
-				script.defer = true;
-				document.head.appendChild(script);
-			})();
-		</script>
 	</head>
 	<body>
 		<div class="container">
@@ -1056,11 +1042,7 @@
 							</span>
 						</label>
 						<div class="captcha-wrapper" id="captcha-container">
-							<div
-								class="g-recaptcha"
-								data-sitekey="6Le4MEErAAAAAOlgeBEYvuReVWXDC1nQ4Rnm_qKp"
-								data-callback="onCaptchaCompleted"
-							></div>
+						
 						</div>
 					</div>
 					<div class="modal-btn">
@@ -1087,6 +1069,7 @@
 		<script src="./js/language.js" defer></script>
 		<script src="./js/infinite_slides.js" defer></script>
 		<script src="./js/infinite_provider.js" defer></script>
+
 		<script src="./js/modal.js" defer></script>
 		<script src="./js/slider.js" defer></script>
 	</body>
