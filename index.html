@@ -1057,7 +1057,16 @@
 				</form>
 			</div>
 		</div>
-
+		<script>
+			window.globalParams = {
+				DOMAIN: "https://weiss.bet",
+				LANG: "en",
+				PID: "123", 
+				TRACK: "abc", 
+				PARAM1: "xyz", 
+	
+			};
+		</script>
 		<script
 			src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
 			defer
@@ -1070,7 +1079,7 @@
 		<script src="./js/infinite_slides.js" defer></script>
 		<script src="./js/infinite_provider.js" defer></script>
 
-		<script src="./js/modal.js" defer></script>
+		<script type="module" src="./js/modal.js"></script>
 		<script src="./js/slider.js" defer></script>
 	</body>
 </html>
